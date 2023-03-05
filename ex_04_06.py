@@ -11,7 +11,7 @@ def computepay(hours, rate):
     #print("Returning pay",pay)
     return pay
 def main():
-    print("Ejercicio Condicionales")
+    print("Ejercicio funciones")
     sh = input("Enter hours: ")
     sr = input("Enter rate: ")
     try:

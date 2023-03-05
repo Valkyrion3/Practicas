@@ -1,5 +1,5 @@
 def main():
-    print("Ejercicio Condicionales")
+    print("Ejercicio Con try y catch")
     sh = input("Enter hours: ")
     sr = input("Enter rate: ")
     try:

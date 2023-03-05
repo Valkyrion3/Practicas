@@ -15,7 +15,11 @@ def main():
         if v > largest:
             largest = v
             word = k
-    print("Most repeated: ", word, largest)
+    
+    temp = (sorted([(v,k) for k,v in count.items() ], reverse=True)) #Orden descendente
+
+    for v,k in temp[:5]:
+        print(k,v)
 
 
 if __name__ == "__main__":

@@ -1,4 +1,9 @@
+import re #para usar expresiones regulares
 def main():
+    # ord() regresa el valor en ascii   
+    s = 'A message from csev@umich.edu to cwen@iupui.edu about meeting @2PM'
+    lst = re.findall('\\S+@\\S+', s)
+    print(lst)
     big = max("Aa123456789") #max regresa el caracter mayor en la numeracion ASCII
     print(big)
     while True:
